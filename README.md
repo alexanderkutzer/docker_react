@@ -49,6 +49,7 @@ docker build -t react-app .
 Führe den Container aus und leite den Port 5173 auf deinen Host weiter:
 ```bash
 docker run -p 5173:80 --name react-app-container react-app
+```
 
 Die App ist jetzt unter **http://localhost:5173** erreichbar.
 
